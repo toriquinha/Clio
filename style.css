@@ -1,0 +1,16 @@
+/*cores*/
+:root{
+    --branco: #fff;
+}
+
+
+/*fontes*/
+@font-face {
+    font-family: 'action comics';
+    src: url(./action_comics/Action\ Comics.ttf);
+}
+
+@font-face {
+    font-family: 'kirome';
+    src: url(./kirome/Kirome.otf);
+}
