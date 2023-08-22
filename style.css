@@ -19,6 +19,12 @@
     src: url(./kirome/Kirome.otf);
 }
 
+*{
+background-color: #aaa587;
+margin: 0;
+padding: 0;
+}
+
 ul {
     font-family: 'kirome';
     
@@ -30,7 +36,8 @@ ul {
   left: 0;
   height: 100%;
   width: 100%;
-  background: var(--cinza);
+  background: #d4c59b;
+  background-image: url(https://static.showit.co/1200/1rojzJyfT3yogEEDJ5wnkw/122080/homepage_heroimagebackgroundflower.png);
   clip-path: circle(25px at calc(100% - 45px) 45px);
   transition: all 0.3s ease-in-out;
 }
@@ -77,10 +84,10 @@ ul {
   font-size: 30px;
   font-weight: 500;
   padding: 5px 30px;
-  color: var(--roxo);
+  color: #ddc0dd;
   text-shadow: 2px 2px #35153579;
   border-radius: 50px;
-  background: var(--cinza);
+  background-color: var(--verde);
   position: relative;
   line-height: 50px;
   transition: all 0.3s ease;
@@ -136,4 +143,31 @@ input[type="checkbox"]{
   100%{
     filter: hue-rotate(360deg);
   }
+}
+
+/*AAAAAAAAAAAAAAAAA*/
+
+header {
+ width: 100%;
+ height: 270px;
+ background-color: #867286;   
+}
+
+/*article*/
+article{
+    background-color: #aaa587;
+    width: 60%;
+    height: 800px;
+    display: block;
+    float: left;
+    
+}
+
+/*aside*/
+aside{
+    background-color: #81977d;
+    width: 40%;
+    height: 800px;
+    display: block;
+    
 }
